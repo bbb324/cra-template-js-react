@@ -1,0 +1,62 @@
+{
+  "name": "cra-template-js-react",
+  "version": "0.1.1",
+  "license": "MIT",
+  "author": "johnigzie@gmail.com",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test"
+  },
+  "main": "template.json",
+  "description": "A quick start Create React App template with React Router, Redux, TypeScript, Enzyme and custom ESlint configurations",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "cra-template",
+    "template",
+    "enzyme",
+    "eslint",
+    "redux",
+    "react-redux",
+    "react-router",
+    "react-router-dom",
+    "typescript",
+    "prettier"
+  ],
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "tag": "latest",
+    "access": "public"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "5.0.1",
+    "@semantic-release/git": "9.0.0",
+    "@semantic-release/github": "7.1.1",
+    "codecov": "3.8.0",
+    "commitizen": "4.2.1",
+    "cypress": "5.3.0",
+    "cz-conventional-changelog": "3.3.0",
+    "eslint-plugin-cypress": "2.11.2",
+    "semantic-release": "17.1.2"
+  }
+}
