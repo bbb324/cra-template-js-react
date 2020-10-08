@@ -14,7 +14,7 @@ module.exports = {
     entry: {
         'babel-polyfill': ['babel-polyfill'],
         ...entryConfig
-    }
+    },
     output: {
         path: path.resolve(__dirname, 'build'),
         filename: '[name].bundle.js'
