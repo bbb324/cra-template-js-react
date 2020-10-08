@@ -4,7 +4,7 @@
   "license": "MIT",
   "author": "johnigzie@gmail.com",
   "main": "template.json",
-  "description": "react ��Ŀ���ּܹ���",
+  "description": "react 开发脚手架，多文件目录结构，区分webpack 线上线下环境",
   "keywords": [
     "bbb324",
     "react",
