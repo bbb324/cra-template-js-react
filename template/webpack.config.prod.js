@@ -13,15 +13,15 @@ module.exports = merge(base, {
     mode: 'production',
     optimization: {
         minimizer: [
-            //压缩CSS代码
+            // 鍘嬬缉css
             new OptimizeCss(),
-            //压缩js代码
+            // 鍘嬬缉js
             new UglifyJsPlugin({
-                //启用文件缓存
+                // 鍚敤鏂囦欢缂撳瓨
                 cache: true,
-                //使用多线程并行运行提高构建速度
+                // 浣跨敤澶氱嚎绋嬫彁楂樻瀯寤洪�熷害
                 parallel: true,
-                //使用 SourceMaps 将错误信息的位置映射到模块
+                // 浣跨敤sourcemap
                 sourceMap: true
             })
         ]

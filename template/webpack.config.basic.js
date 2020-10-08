@@ -6,14 +6,18 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const webpack = require('webpack');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 
-
+// 通过entry来配置入口文件
+const entryConfig = require('./entry.json');
 
 
 module.exports = {
-    entry: ['babel-polyfill', './src/index.jsx'],
+    entry: {
+        'babel-polyfill': ['babel-polyfill'],
+        ...entryConfig
+    }
     output: {
         path: path.resolve(__dirname, 'build'),
-        filename: 'bundle.js'
+        filename: '[name].bundle.js'
     },
     devtool: 'source-map',
     optimization: {
