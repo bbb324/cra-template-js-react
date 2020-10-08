@@ -30,7 +30,7 @@
       "webpack": "^4.29.3",
       "webpack-cli": "^3.2.3"
     },
-    
+
     "scripts": {
       "dev": "webpack --config webpack.config.basic.js --progress --display-modules --colors --watch --hot",
       "build": "cross-env NODE_ENV=production webpack --config webpack.config.prod.js",
